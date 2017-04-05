@@ -25,6 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "bower": "^1.5.2",
+    "del": "^2.2.2",
     "grunt": "~0.4.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-concat": "~0.1.3",
@@ -40,7 +41,22 @@
     "grunt-recess": "~0.3",
     "grunt-replace": "^1.0.1",
     "grunt-shell": "^1.1.2",
-    "grunt-usemin": "^3.1.1"
+    "grunt-usemin": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-html2js": "^0.4.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-recess": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-shell": "^0.6.3",
+    "gulp-uglify": "^2.1.2",
+    "gulp-usemin": "^0.3.28",
+    "vinyl-paths": "^2.1.0"
   },
   "scripts": {
     "postinstall": "bower install"
