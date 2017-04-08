@@ -3,7 +3,7 @@ package http
 import (
 	"strconv"
 
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 
 	"log"
 	"net/http"

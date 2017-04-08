@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 	"golang.org/x/net/websocket"
 )
 

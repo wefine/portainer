@@ -30,6 +30,18 @@ module.exports = function (grunt) {
     'usemin',
     'clean:tmp'
   ]);
+  grunt.registerTask('4de', [
+    'clean:app',
+    'html2js',
+    'useminPrepare:dev',
+    'recess:build',
+    'concat',
+    'clean:tmpl',
+    'copy',
+    'filerev',
+    'usemin',
+    'clean:tmp'
+  ]);
   grunt.registerTask('release', [
     'clean:all',
     'if:unixBinaryNotExist',

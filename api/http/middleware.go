@@ -3,7 +3,7 @@ package http
 import (
 	"context"
 
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 
 	"net/http"
 	"strings"

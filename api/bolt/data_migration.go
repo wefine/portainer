@@ -2,7 +2,7 @@ package bolt
 
 import (
 	"github.com/boltdb/bolt"
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 )
 
 type Migrator struct {

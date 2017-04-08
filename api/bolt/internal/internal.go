@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 
 	"encoding/binary"
 	"encoding/json"

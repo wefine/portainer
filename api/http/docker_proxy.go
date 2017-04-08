@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/portainer/portainer"
+	"github.com/portainer/portainer/api"
 )
 
 // ProxyFactory is a factory to create reverse proxies to Docker endpoints
